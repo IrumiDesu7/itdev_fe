@@ -1,15 +1,14 @@
-import { useState } from 'react';
 import styled from 'styled-components';
+import Form from './Form';
 
 const Container = styled.div``;
 const Description = styled.div``;
-const InputContainer = styled.div``;
 
 function Home() {
   return (
     <Container>
-      <Description></Description>
-      <InputContainer></InputContainer>
+      <Description>Verifikasi Data Warga</Description>
+      <Form />
     </Container>
   );
 }
